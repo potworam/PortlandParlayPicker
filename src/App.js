@@ -28,6 +28,7 @@ import React, {useState} from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
 import Body from './components/body';
+import Teams from './components/body/teams';
 import './App.css';
 //testcomment//
 function App() {
@@ -37,6 +38,7 @@ function App() {
        
        <Header></Header>
        <Body></Body>
+       <Teams></Teams>
         <Footer></Footer>
       </main>
     </div>

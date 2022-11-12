@@ -3,9 +3,11 @@ import React from 'react';
 function Body() {
     return(
         <section class="center"> 
+        <div>Type a players name</div>
            <div class="wrapper">
            <input id="searchbar" onkeyup="search_player()" type="text"
         class="search" placeholder="Search players.."></input>
+        {/* above box needs to be a dropdown with players from api, or does it?  */}
         <button class="button button1">Submit</button>
         <label for="categories">Choose a stat category:</label>
         <select name="categories" id="categories">
