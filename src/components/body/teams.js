@@ -77,8 +77,8 @@ function Teams() {
         <button class="button button1">Submit</button>
         </div>
     </section>
- //uhhhhhh
- 
+//  need to add button to pick winner, or should algorithm decide?
+//  maybe pick winner an send win pct based on season avg?
     );
     }
     export default Teams;

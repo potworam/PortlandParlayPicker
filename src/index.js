@@ -11,7 +11,14 @@ root.render(
     <App />
   </React.StrictMode>
 );
+const mongoose = require('mongoose');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/pizza-hunt', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
+// Use this to log mongo queries being executed!
+mongoose.set('debug', true);
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
