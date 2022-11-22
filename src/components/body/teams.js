@@ -1,12 +1,13 @@
 import React from 'react';
 // maybe put trailblazers at top or highlight?
+//maybe be more specific for calling everything teams
 function Teams() {
     return(
         <section class="center"> 
         <div>Home Team</div>
            <div class="wrapper">
-           <label for="categories"></label>
-        <select name="categories" id="categories">
+           <label for="homeTeams"></label>
+        <select name="homeTeams" id="homeTeams">
 <option value="Atlanta Hawks">Atlanta Hawks</option>
 <option value="Boston Celtics">Boston Celtics</option>
 <option value="Brooklyn Nets">Brooklyn Nets</option>
@@ -38,11 +39,11 @@ function Teams() {
 <option value="Utah Jazz">Utah Jazz</option>
 <option value="Washington Wizards">Washington Wizards</option>
         </select>
-        <button class="button button1">Submit</button>
+        {/* <button class="button button1">Submit</button> */}
 
         <div>Away Team</div>
-        <label for="categories"></label>
-        <select name="categories" id="categories">
+        <label for="awayTeams"></label>
+        <select name="awayTeams" id="awayTeams">
 <option value="Atlanta Hawks">Atlanta Hawks</option>
 <option value="Boston Celtics">Boston Celtics</option>
 <option value="Brooklyn Nets">Brooklyn Nets</option>
@@ -74,8 +75,15 @@ function Teams() {
 <option value="Utah Jazz">Utah Jazz</option>
 <option value="Washington Wizards">Washington Wizards</option>
         </select>
-        <button class="button button1">Submit</button>
+        {/* <button class="button button1">Submit</button> */}
         </div>
+        <div>choose who will win</div>
+        <label for="winTeam"></label>
+        <select name="winTeam" id="winTeam">
+            <option value="Home Team">Home Team</option>
+            <option value="Away Team">Away Team</option>
+            </select>
+            <button class="button button1">Create Team Card</button>
     </section>
 //  need to add button to pick winner, or should algorithm decide?
 //  maybe pick winner an send win pct based on season avg?

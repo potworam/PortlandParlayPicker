@@ -6,9 +6,9 @@ function Body() {
         <div>Type a players name</div>
            <div class="wrapper">
            <input id="searchbar" onkeyup="search_player()" type="text"
-        class="search" placeholder="Search players.."></input>
+        class="search" placeholder="Search for a player"></input>
         {/* above box needs to be a dropdown with players from api, or does it?  */}
-        <button class="button button1">Submit</button>
+        {/* <button class="button button1">Submit</button> */}
         <label for="categories">Choose a stat category:</label>
         <select name="categories" id="categories">
 <option value="Points">Points</option>
@@ -17,7 +17,9 @@ function Body() {
 <option value="Steals">Steals</option>
 <option value="Blocks">Blocks</option>
         </select>
-        <button class="button button1">Add players info</button>
+        <input id="searchbar" onkeyup="search_player()" type="number"
+        class="search" placeholder="input expected stat"></input>
+        <button class="button button1">Create Stat Card</button>
         </div>
     </section>
  //uhhhhhh
