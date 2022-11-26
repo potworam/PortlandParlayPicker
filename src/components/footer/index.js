@@ -4,7 +4,8 @@ function Footer() {
     return(
         <section class="footer">
            <div>
-            Made with ❤️ by Matty P
+            Matt Your'e AMAZING YOURE THE BEST😎
+            my nama jef 🥳 keep on coding this out
            </div>
     </section>
     );

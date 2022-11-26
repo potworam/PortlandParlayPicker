@@ -83,6 +83,9 @@ justify-content: center;
 
 .button1 {background-color: #E03A3E;} 
 
+.statBox {
+  border: 1px black;
+}
 /* .App-header {
   background-color: #282c34;
   min-height: 100vh;

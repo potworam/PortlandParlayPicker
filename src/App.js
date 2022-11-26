@@ -29,6 +29,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Body from './components/body';
 import Teams from './components/body/teams';
+import Button from './components/body/button';
 import './App.css';
 //testcomment//
 function App() {
@@ -39,6 +40,7 @@ function App() {
        <Header></Header>
        <Body></Body>
        <Teams></Teams>
+       <Button></Button>
         <Footer></Footer>
       </main>
     </div>

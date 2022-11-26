@@ -1,5 +1,6 @@
 import React from 'react';
-
+// import Button from './button';
+// import createStatCard from '../misc/createbox';
 function Body() {
     return(
         <section class="center"> 
@@ -19,11 +20,9 @@ function Body() {
         </select>
         <input id="searchbar" onkeyup="search_player()" type="number"
         class="search" placeholder="input expected stat"></input>
-        <button class="button button1">Create Stat Card</button>
+        <button onclick= "createCard"  class="button button1" >Create Stat Card</button>
         </div>
     </section>
- //uhhhhhh
-//  add user input value for ast reb pt
     );
     }
     export default Body;
