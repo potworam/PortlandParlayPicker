@@ -15,7 +15,7 @@ function Button(){
             alert('Oh, you clicked me!')
           })
     
-        //   document.body.appendChild(button)
+          document.body.appendChild(button)
 }
 export default Button;
 // it works as a button, but i need only button, and i need it to do different things

@@ -1,4 +1,7 @@
 import React from 'react';
+function createCard(){
+    console.log("good job matt")
+}
 // import Button from './button';
 // import createStatCard from '../misc/createbox';
 function Body() {
@@ -20,9 +23,12 @@ function Body() {
         </select>
         <input id="searchbar" onkeyup="search_player()" type="number"
         class="search" placeholder="input expected stat"></input>
-        <button onclick= "createCard"  class="button button1" >Create Stat Card</button>
+        <button onclick= {createCard}  class="button button1" >Create Stat Card</button>
+        {/* maybe add event listener? */}
+        {/* console.log not working... */}
         </div>
     </section>
     );
     }
     export default Body;
+    // Fix button Class if u want it to look better
